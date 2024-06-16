@@ -36,6 +36,25 @@
 
 @media (max-width: 1024px) {
     .primeiro-conteudo {
+        margin-top: 10vh;
         flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .titulo {
+        font-size: 40px;
+        text-align: center;
+        height: auto;
+    }
+
+    .preview-photo {
+        height: 150px;
+    }
+
+    .conteiner-2 {
+        display: flex;
+        justify-content: center;
     }
 }

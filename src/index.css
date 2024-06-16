@@ -47,3 +47,10 @@ background-size: 40px 40px; /* Tamanho das linhas */
     border: 1px solid #ccc; 
     padding: 20px;
 }
+
+@media (max-width: 1024px) {
+  html, body {
+    overflow-y: hidden;
+    height: auto;
+  }
+}
