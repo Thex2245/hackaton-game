@@ -1,0 +1,36 @@
+.segundo-conteudo {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #375a78;
+    position: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sinopse {
+    width: 60%;
+}
+
+.titulo-sinopse {
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    user-select: none;
+}
+
+.descricao-sinopse {
+    color: #76b7c4;
+    text-wrap: wrap;
+    font-family: "Karla", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    user-select: none;
+}
+
+@media (max-width: 1024px) {
+    .segundo-conteudo {
+        height: 100%;
+    }
+}
