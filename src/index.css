@@ -24,6 +24,7 @@
 }
 
 html, body {
+    oscroll-behavior: smooth;
     overflow-x: hidden;
     height: 200dvh;
     width: 100dvw;

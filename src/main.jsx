@@ -5,6 +5,7 @@ import BarraNav from './components/BarraNav'
 import PrimeiroConteudo from './components/PrimeiroConteudo'
 import SegundoConteudo from './components/SegundoConteudo'
 import Footer from './components/Footer'
+import GoOnTop from './components/GoOnTop'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,5 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <PrimeiroConteudo />
     <SegundoConteudo />
     <Footer />
+    <GoOnTop />
   </React.StrictMode>,
 )
