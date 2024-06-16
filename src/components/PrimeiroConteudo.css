@@ -54,18 +54,12 @@
     }
 
     .preview-photo {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 
     .conteiner-2 {
         display: flex;
         justify-content: center;
-    }
-}
-
-@media (max-width: 480px) {
-    .preview-photo {
-        border-radius: 0px;
     }
 }
