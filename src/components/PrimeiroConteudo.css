@@ -8,6 +8,10 @@
 
 .conteiner-1, .conteiner-2 {
     width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .titulo {
@@ -20,7 +24,7 @@
 .desc {
     color: #375a78;
     background-color: #fbfdff;
-    padding: 10px;
+    width: 80%;
     border-radius: 50px;
     text-wrap: wrap;
     font-family: "Karla", sans-serif;
@@ -50,11 +54,18 @@
     }
 
     .preview-photo {
-        height: 150px;
+        width: 100%;
+        height: auto;
     }
 
     .conteiner-2 {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .preview-photo {
+        border-radius: 0px;
     }
 }
