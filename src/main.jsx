@@ -4,11 +4,13 @@ import './index.css'
 import BarraNav from './components/BarraNav'
 import PrimeiroConteudo from './components/PrimeiroConteudo'
 import SegundoConteudo from './components/SegundoConteudo'
+import Footer from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BarraNav />
     <PrimeiroConteudo />
     <SegundoConteudo />
+    <Footer />
   </React.StrictMode>,
 )
