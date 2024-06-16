@@ -19,13 +19,15 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    
+    width: auto;
 }
 
 .titulo {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 60px;
+    height: 55px;
+    width: auto;
     user-select: none;
     display: flex;
     align-items: center;
