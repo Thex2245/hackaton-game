@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className='footer'>
         <div className="conteiner-footer">
             <div className="conteiner-titulo">
-                <img src={Risco} alt="" className='risco' />
-                <h1 className='titulo'> BioCollapse</h1>
+                <img src={Risco} alt="" className='risco risco2' />
+                <h1 className='titulo titulo2'> BioCollapse</h1>
             </div>
             <p className='direitos-reservados'>Copyright © BioCollapse | Todos os direitos reservados</p>
         </div>

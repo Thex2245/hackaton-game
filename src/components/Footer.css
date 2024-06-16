@@ -3,16 +3,27 @@
     background-color: #131718;
     height: 20dvh;
     width: 100dvw;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .conteiner-footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: auto;
     height: auto;
     margin: 20px;
+}
+
+.risco2 {
+    height: 30px;
+    width: 30px;
+}
+
+.titulo2 {
+    font-size: 40px;
 }
 
 .direitos-reservados {
@@ -22,4 +33,10 @@
     font-size: 20px;
     margin: 0;
     text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .direitos-reservados {
+        font-size: 10px;
+    }
 }

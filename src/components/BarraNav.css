@@ -25,6 +25,7 @@ a {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  user-select: none;
 }
 
 a:hover .bi , a:hover h1{
