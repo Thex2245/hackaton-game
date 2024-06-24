@@ -6,6 +6,7 @@ import PrimeiroConteudo from './components/PrimeiroConteudo'
 import SegundoConteudo from './components/SegundoConteudo'
 import TerceiroConteudo from './components/TerceiroConteudo'
 import QuartoConteudo from './components/QuartoConteudo'
+import QuintoConteudo from './components/QuintoConteudo'
 import Footer from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,8 +14,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BarraNav />
     <PrimeiroConteudo />
     <SegundoConteudo />
-    <TerceiroConteudo />
     <QuartoConteudo />
+    <TerceiroConteudo />
+    <QuintoConteudo />
     <Footer />
   </React.StrictMode>,
 )

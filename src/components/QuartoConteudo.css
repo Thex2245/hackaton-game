@@ -5,73 +5,76 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: #518abb;
     border-top: 1px solid #76b7c4;
     flex-direction: column;
 }
 
-.profile-photo{
-    border-radius: 50%;
-    height: 200px;
-    width: auto;
-    border: 1px solid #76b7c4;
-}
-
-.sobre-mim {
+.praticas-esg {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
     flex-direction: column;
     width: 80%;
+    height: 100%;
+    gap: 30px;
 }
 
-.sobre-mim-titulo {
-    color: #76b7c4;
+.o-que-e, .onde-aplicado {
+    gap: 30px;
+}
+
+.conteiner-titulo-esg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-esg {
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    line-height: 40px;
+}
+
+.o-que-e-titulo, .onde-aplicado-titulo {
+    color: #1e3346;
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 40px;
     user-select: none;
-    text-align: left;
 }
 
-.sobre-mim-desc {
-    color: #375a78;
+.o-que-e-desc, .lista {
+    color: #ffffff;
     text-wrap: wrap;
     text-align: left;
     font-family: "Karla", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 200;
+    font-size: 25px;
     user-select: none;
     margin: 0;
 }
 
-.redes-sociais {
-    display: flex;
-    gap: 20px;
-}
-
-.redes-sociais i{
-    font-size: 30px;
-}
-
 @media (max-width: 1024px) {
     .quarto-conteudo {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 30px;
         height: auto;
         padding: 20vw 0 20vw 0;
+        gap: 20px;
     }
 
-    .sobre-mim {
-        align-items: center;
-    }
-
-    .sobre-mim-titulo {
+    .titulo-esg {
+        font-size: 40px;
         text-align: center;
-        font-size: 25px;
     }
 
-    .sobre-mim-desc {
-        text-align: center;
-        font-size: 15px;
+    .o-que-e-titulo, .onde-aplicado-titulo {
+        font-size: 40px;
     }
 }
