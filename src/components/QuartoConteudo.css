@@ -10,7 +10,7 @@
 
 .profile-photo{
     border-radius: 50%;
-    height: 30dvw;
+    height: 200px;
     width: auto;
     border: 1px solid #76b7c4;
 }
@@ -55,9 +55,11 @@
 
     .sobre-mim-titulo {
         text-align: center;
+        font-size: 25px;
     }
 
     .sobre-mim-desc {
         text-align: center;
+        font-size: 15px;
     }
 }
