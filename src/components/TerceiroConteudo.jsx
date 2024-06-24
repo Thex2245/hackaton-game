@@ -15,7 +15,7 @@ const TerceiroConteudo = () => {
         sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups" 
         scrolling="no">
         </iframe>
-        <p className='atencao-jogo'><b>Atenção, o jogo está apenas dispositivos 'desktops'.</b></p>
+        <p className='atencao-jogo'><b>Atenção, o jogo está disponível apenas para dispositivos 'desktops'.</b></p>
     </div>
     )
 }

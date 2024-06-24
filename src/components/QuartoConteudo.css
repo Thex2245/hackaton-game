@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-evenly;
     border-top: 1px solid #76b7c4;
+    flex-direction: column;
 }
 
 .profile-photo{
@@ -19,7 +20,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: auto;
+    width: 80%;
 }
 
 .sobre-mim-titulo {
@@ -42,11 +43,19 @@
     margin: 0;
 }
 
+.redes-sociais {
+    display: flex;
+    gap: 20px;
+}
+
+.redes-sociais i{
+    font-size: 30px;
+}
+
 @media (max-width: 1024px) {
     .quarto-conteudo {
         flex-wrap: wrap;
         justify-content: center;
-        flex-direction: column;
         gap: 30px;
         height: auto;
         padding: 20vw 0 20vw 0;
