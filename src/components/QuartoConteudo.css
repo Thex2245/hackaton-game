@@ -70,6 +70,10 @@
     gap: 10px;
 }
 
+.lista::marker {
+    margin-right: 5px;
+}
+
 @media (max-width: 1024px) {
     .quarto-conteudo {
         height: auto;
