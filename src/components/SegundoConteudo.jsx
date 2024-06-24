@@ -2,7 +2,7 @@ import './SegundoConteudo.css'
 
 const SegundoConteudo = () => {
     return (
-    <div className='segundo-conteudo'>
+    <div className='segundo-conteudo' id='sinopse-conteiner'>
         <div className="sinopse">
             <h1 className='titulo-sinopse'>Sinopse</h1>
             <p className="descricao-sinopse"><b>BioCollapse</b> é um jogo eletrônico de ação e sobrevivência em terceira pessoa ambientado em um mundo pós-apocalíptico, combina intensa ação contra zumbis com dilemas morais e práticas de sustentabilidade e governança ética.</p>

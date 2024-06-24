@@ -1,0 +1,59 @@
+.terceiro-conteudo {
+    width: 100dvw;
+    height: 150dvh;
+    background-color: #518abb;
+    position: initial;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-top: 1px solid #76b7c4;
+}
+
+.textos {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+}
+
+.titulo-jogo {
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    user-select: none;
+}
+
+.desc-jogo {
+    color: #ffffff;
+    text-wrap: wrap;
+    text-align: left;
+    font-family: "Karla", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    user-select: none;
+    margin: 0;
+}
+
+.atencao-jogo{
+    display: none;
+    color: #ffffff;
+    text-wrap: wrap;
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    user-select: none;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    iframe {
+        display: none;
+    }
+
+    .atencao-jogo {
+        display: flex;
+    }
+}
