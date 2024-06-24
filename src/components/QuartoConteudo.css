@@ -49,6 +49,7 @@
     font-weight: 800;
     font-size: 40px;
     user-select: none;
+    line-height: 40px;
 }
 
 .o-que-e-desc, .lista {
