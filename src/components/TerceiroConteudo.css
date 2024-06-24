@@ -38,9 +38,9 @@
 
 .atencao-jogo{
     display: none;
-    color: #ffffff;
+    color: #375a78;
     text-wrap: wrap;
-    text-align: center;
+    text-align: left;
     font-family: "Karla", sans-serif;
     font-weight: 200;
     font-size: 20px;
@@ -49,11 +49,18 @@
 }
 
 @media (max-width: 1024px) {
+    .terceiro-conteudo {
+        height: auto;
+        padding: 20vw 0 20vw 0;
+        gap: 20px;
+    }
+
     iframe {
         display: none;
     }
 
     .atencao-jogo {
         display: flex;
+        width: 80%;
     }
 }
