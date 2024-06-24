@@ -51,3 +51,9 @@ h1 {
 .bi:hover {
   color: #ffff;
 }
+
+@media (max-width: 1024px) {
+  a h1 {
+    display: none;
+  }
+}
