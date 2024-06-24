@@ -17,12 +17,14 @@
     justify-content: space-evenly;
     flex-direction: column;
     width: 80%;
-    height: 100%;
+    height: 80%;
     gap: 30px;
 }
 
 .o-que-e, .onde-aplicado {
     gap: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .conteiner-titulo-esg {
@@ -63,6 +65,11 @@
     margin: 0;
 }
 
+.conteiner-lista {
+    display: flex;
+    gap: 10px;
+}
+
 @media (max-width: 1024px) {
     .quarto-conteudo {
         height: auto;
@@ -77,5 +84,9 @@
 
     .o-que-e-titulo, .onde-aplicado-titulo {
         font-size: 40px;
+    }
+
+    .conteiner-lista {
+        flex-direction: column;
     }
 }

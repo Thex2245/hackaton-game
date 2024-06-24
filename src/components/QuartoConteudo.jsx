@@ -13,9 +13,11 @@ const QuartoConteudo = () => {
                 </div>
                 <div className="onde-aplicado">
                     <h1 className="onde-aplicado-titulo">Onde ele é usado no jogo?</h1>
-                    <li className='lista'><b>E</b>nvironmental (ambiental): sobreviventes devem explorar a floresta cuidadosamente, colentando recursos, mas de forma sustentável.</li>
-                    <li className="lista"><b>S</b>ocial: sobreviventes devem fortalecer sua comunidade, promover a educação, ética e união.</li>
-                    <li className="lista"><b>G</b>overnance (governança): sobreviventes devem se reunir para tomada de decisões do acampamento e gestão de conflitos.</li>
+                    <div className="conteiner-lista">
+                        <li className='lista'><b>E</b>nvironmental (ambiental): sobreviventes devem explorar a floresta cuidadosamente, colentando recursos, mas de forma sustentável.</li>
+                        <li className="lista"><b>S</b>ocial: sobreviventes devem fortalecer sua comunidade, promover a educação, ética e união.</li>
+                        <li className="lista"><b>G</b>overnance (governança): sobreviventes devem se reunir para tomada de decisões do acampamento e gestão de conflitos.</li>
+                    </div>
                 </div>
             </div>
         </div>
