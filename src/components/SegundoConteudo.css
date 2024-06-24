@@ -9,6 +9,15 @@
     border-top: 1px solid #76b7c4;
 }
 
+.conteiner-sobremim {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
 .sinopse {
     display: flex;
     flex-direction: column;
