@@ -59,6 +59,14 @@
         display: none;
     }
 
+    .textos {
+        align-items: center;
+    }
+
+    .titulo-jogo {
+        font-size: 40px;
+    }
+
     .atencao-jogo {
         display: flex;
         width: 80%;
